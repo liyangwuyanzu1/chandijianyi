@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>植保植检信息管理系统</title>
+<link rel="stylesheet" href="assets/font_2597963_ynx8a47ygu_iconfont.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ================= 头部 ================= -->
+  <header class="mis-header">
+    <div class="top-navi">
+      <div class="rq" id="dateText"></div>
+      <div class="user">
+        <button class="navi-btn" type="button"><i class="iconfont npp-fanhuimenhuwangzhan"></i><span>返回门户网站</span></button>
+        <div class="divider"></div>
+        <button class="navi-btn" type="button"><i class="iconfont npp-tongzhi"></i><span>通知</span></button>
+        <div class="divider"></div>
+        <button class="navi-btn" type="button"><i class="iconfont npp-a-bangzhu1"></i><span>帮助</span></button>
+        <div class="divider"></div>
+        <span class="user-name"><i class="iconfont npp-user"></i><span>河北省系统管理员，您已登录</span></span>
+        <i class="iconfont npp-arrow_down arrow-down"></i>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="logo-container">
+        <img src="assets/img_nyb_logo.05014a61.png" alt="全国农业技术推广服务中心">
+      </div>
+      <div class="sublogo-container">
+        <img src="assets/img_protect.1e52c5a6.png" alt="植物检疫信息管理">
+        <div class="subline"></div>
+        <img src="assets/img_system.ad86b25a.png" alt="植保植检信息管理系统">
+      </div>
+    </div>
+    <div class="mis-navi">
+      <div class="mis-title"></div>
+      <div class="module-navi" id="moduleNavi"></div>
+    </div>
+  </header>
+
+  <!-- ================= 主体 ================= -->
+  <section class="mis-body">
+    <aside class="el-aside">
+      <div class="side-menu">
+        <ul class="el-menu" id="sideMenu"></ul>
+      </div>
+      <div class="shrink-container"><i class="iconfont npp-zhankai" style="font-size:16px"></i></div>
+    </aside>
+
+    <main class="el-main">
+      <div class="page-container">
+        <div class="crumb">
+          <span class="text">当前位置：</span>
+          <div class="el-breadcrumb" id="breadcrumb"></div>
+        </div>
+        <div class="cache-pages" id="cachePages"></div>
+        <div class="mis-page">
+          <div class="tab-container" id="tabContainer"></div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+</div>
+<div id="toast"></div>
+
+<script src="mock.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

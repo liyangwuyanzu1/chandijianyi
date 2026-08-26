@@ -1,0 +1,19 @@
+# Local browser/test artifacts
+scratch/
+.tools/
+
+# Packaged archives and generated dependencies
+*.zip
+*.rar
+*.7z
+UAV/node_modules/
+UAV/dist/
+UAV/.vite/
+
+# Logs and local editor files
+*.log
+.vscode/
+.idea/
+node_modules/
+
+UAV/
