@@ -4,6 +4,12 @@
 
 演示采用本地预置数据，使用 Node.js 即可运行，无需安装 npm 依赖、配置数据库或启动业务后端。
 
+## 在线演示
+
+公开访问地址：[https://liyangwuyanzu1.github.io/chandijianyi/](https://liyangwuyanzu1.github.io/chandijianyi/)。访问演示无需登录或仓库权限。
+
+代码托管于 [GitLab 项目仓库](https://git-access.hezor.ai/solution-demo-system-center/uav-origin-quarantine)，公开演示由原有 GitHub 仓库的 Pages 提供。更新公开演示时，需将最新代码同步至 GitHub 远程 `origin` 的 `main` 分支，工作流会自动发布 `pq-system-demo/`。
+
 ## 功能概览
 
 ### 产地检疫
